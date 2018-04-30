@@ -10,14 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelNome: UILabel!
+    @IBOutlet weak var labelCognome: UILabel!
+    @IBOutlet weak var labelEta: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        labelEta.text = String(eta[myIndex])
+        labelNome.text = nomi[myIndex]
+        labelCognome.text = cognomi[myIndex]
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-
 }
