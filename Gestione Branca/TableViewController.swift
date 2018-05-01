@@ -8,12 +8,12 @@
 
 import UIKit
 
-var nomi = ["Andrea", "Matteo", "Marco", "Giovanni"]
+/*var nomi = ["Andrea", "Matteo", "Marco", "Giovanni"]
 var cognomi = ["Borgotti", "Rossi", "Luppi", "OLLI"]
 var eta = [10, 9, 8, 10]
 
 var myIndex = 0
-
+*/
 class TableViewController: UITableViewController {
 
     // MARK: - Table view data source

@@ -17,6 +17,7 @@
 		14809B5E2097893400C6ABA5 /* Gestione_BrancaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B5D2097893400C6ABA5 /* Gestione_BrancaUITests.swift */; };
 		14809B6C2097B95600C6ABA5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B6B2097B95600C6ABA5 /* TableViewController.swift */; };
 		14809B6E2097BFF400C6ABA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B6D2097BFF400C6ABA5 /* ViewController.swift */; };
+		14C6E3CE20985F8400BADA64 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6E3CD20985F8400BADA64 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		14809B5F2097893400C6ABA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14809B6B2097B95600C6ABA5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		14809B6D2097BFF400C6ABA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14C6E3CD20985F8400BADA64 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				14809B3B2097893300C6ABA5 /* AppDelegate.swift */,
 				14809B3D2097893300C6ABA5 /* FirstViewController.swift */,
 				14809B6D2097BFF400C6ABA5 /* ViewController.swift */,
+				14C6E3CD20985F8400BADA64 /* ViewController2.swift */,
 				14809B6B2097B95600C6ABA5 /* TableViewController.swift */,
 				14809B3F2097893300C6ABA5 /* SecondViewController.swift */,
 				14809B412097893300C6ABA5 /* Main.storyboard */,
@@ -270,6 +273,7 @@
 				14809B3C2097893300C6ABA5 /* AppDelegate.swift in Sources */,
 				14809B3E2097893300C6ABA5 /* FirstViewController.swift in Sources */,
 				14809B6C2097B95600C6ABA5 /* TableViewController.swift in Sources */,
+				14C6E3CE20985F8400BADA64 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
