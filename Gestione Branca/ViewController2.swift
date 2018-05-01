@@ -14,24 +14,32 @@ var myIndex = 0
 
 class ViewController2: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
     }
 
-   public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
         return nomi.count
     }
     
-    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = nomi[indexPath.row]
         
         return cell
     }
     
-    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
         myIndex = indexPath.row
         performSegue(withIdentifier: "segue", sender: self)
+    }
+   
+    @IBAction func actionButton(_ sender: Any)
+    {
+        
     }
 }

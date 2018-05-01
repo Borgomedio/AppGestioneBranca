@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1425699120987B1300D94622 /* ViewControllerNuovoBambino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425699020987B1300D94622 /* ViewControllerNuovoBambino.swift */; };
 		14809B3C2097893300C6ABA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B3B2097893300C6ABA5 /* AppDelegate.swift */; };
 		14809B3E2097893300C6ABA5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B3D2097893300C6ABA5 /* FirstViewController.swift */; };
 		14809B402097893300C6ABA5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B3F2097893300C6ABA5 /* SecondViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1425699020987B1300D94622 /* ViewControllerNuovoBambino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNuovoBambino.swift; sourceTree = "<group>"; };
 		14809B382097893300C6ABA5 /* Gestione Branca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gestione Branca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14809B3B2097893300C6ABA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14809B3D2097893300C6ABA5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				14809B3D2097893300C6ABA5 /* FirstViewController.swift */,
 				14809B6D2097BFF400C6ABA5 /* ViewController.swift */,
 				14C6E3CD20985F8400BADA64 /* ViewController2.swift */,
+				1425699020987B1300D94622 /* ViewControllerNuovoBambino.swift */,
 				14809B6B2097B95600C6ABA5 /* TableViewController.swift */,
 				14809B3F2097893300C6ABA5 /* SecondViewController.swift */,
 				14809B412097893300C6ABA5 /* Main.storyboard */,
@@ -274,6 +277,7 @@
 				14809B3E2097893300C6ABA5 /* FirstViewController.swift in Sources */,
 				14809B6C2097B95600C6ABA5 /* TableViewController.swift in Sources */,
 				14C6E3CE20985F8400BADA64 /* ViewController2.swift in Sources */,
+				1425699120987B1300D94622 /* ViewControllerNuovoBambino.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
