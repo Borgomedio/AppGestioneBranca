@@ -92,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="974" y="-480"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="BTK-Gd-RfD">
@@ -151,39 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gf0-BA-NX3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1444" y="-317.09145427286359"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="qLm-94-dBM">
-            <objects>
-                <tableViewController id="G8I-ku-FIs" customClass="TableViewController" customModule="Gestione_Branca" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Tar-AY-cCt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="56" id="V6z-hq-oUE">
-                                <rect key="frame" x="0.0" y="28" width="375" height="56"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="V6z-hq-oUE" id="tUX-7i-VrA">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="G8I-ku-FIs" id="l7Z-78-0lU"/>
-                            <outlet property="delegate" destination="G8I-ku-FIs" id="Igd-R5-0Xq"/>
-                        </connections>
-                    </tableView>
-                    <toolbarItems>
-                        <barButtonItem systemItem="rewind" id="rf0-pw-7Af"/>
-                    </toolbarItems>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UqE-30-Mzw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1649" y="-1282"/>
+            <point key="canvasLocation" x="974" y="-1289"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7dS-Eu-aEe">
@@ -273,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WoB-qV-Rqk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2160.8000000000002" y="-321.58920539730138"/>
+            <point key="canvasLocation" x="1972" y="-877"/>
         </scene>
         <!--Attività-->
         <scene sceneID="wg7-f3-ORb">
@@ -310,7 +278,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="974" y="709"/>
         </scene>
         <!--View Controller Nuovo Bambino-->
         <scene sceneID="GMO-lJ-g8Z">
@@ -392,6 +360,8 @@
                                 <state key="normal" title="Aggiungi"/>
                                 <connections>
                                     <action selector="aggiungiButton:" destination="J9u-S7-U8r" eventType="touchUpInside" id="cqT-N2-aaD"/>
+                                    <action selector="aggiungiButton:" destination="uBM-qP-WhY" eventType="touchUpInside" id="u5p-yr-zAK"/>
+                                    <segue destination="yHT-Fa-fAy" kind="show" identifier="torna" id="1ai-DU-Q6P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTn-eN-Cec">
@@ -417,7 +387,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AII-7d-oWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="J9u-S7-U8r" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1802.4000000000001" y="419.64017991004499"/>
+            <point key="canvasLocation" x="1972" y="-1681"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -445,6 +415,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Qlr-lh-7jY"/>
+        <segue reference="QuP-ZT-heS"/>
     </inferredMetricsTieBreakers>
 </document>
