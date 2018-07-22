@@ -8,8 +8,8 @@
 
 import UIKit
 
-var nomeDaAggiungere = "a"
-var cognomeDaAggiungere = "a"
+var nomeDaAggiungere = "-"
+var cognomeDaAggiungere = "-"
 var dataDaAggiungere = Date()
 
 var classeInsert = "Terza"

@@ -10,21 +10,21 @@ import UIKit
 var nomi = ["Andrea", "Matteo", "Marco", "Giovanni"]
 var cognomi = ["Borgotti", "Rossi", "Luppi", "OLLI"]
 var eta = [10, 9, 8, 10]
+let dateDiNascita : Data  // Sistemare array date di nascita
 var myIndex = 0
 
 class ViewController2: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     override func viewDidLoad()
     {
-        if nomeDaAggiungere != "a" && cognomeDaAggiungere != "a" {
+        if nomeDaAggiungere != "-" && cognomeDaAggiungere != "-" {
             nomi.append(nomeDaAggiungere)
             cognomi.append(cognomeDaAggiungere)
+            eta.append(calcolaEta(da: dataDaAggiungere))
+           
             
-            print("L'eta calcolata viene: " )
-            print(calcolaEta(da: dataDaAggiungere))
-            
-            nomeDaAggiungere = "a"
-            cognomeDaAggiungere = "a"
+            nomeDaAggiungere = "-"
+            cognomeDaAggiungere = "-"
         }
         super.viewDidLoad()
     }
@@ -43,7 +43,7 @@ class ViewController2: UIViewController, UITableViewDelegate, UITableViewDataSou
         let d = calendar.component(.day, from: t)
         
         
-        // Sistemare calcolo dell'età usando mesi e giorni
+        
         e = y - yearB
         
         if monthB > m {
@@ -66,7 +66,7 @@ class ViewController2: UIViewController, UITableViewDelegate, UITableViewDataSou
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = nomi[indexPath.row]
+        cell.textLabel?.text = nomi[indexPath.row] + " " + cognomi[indexPath.row]
         
         return cell
     }
