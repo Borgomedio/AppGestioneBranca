@@ -10,7 +10,7 @@ import UIKit
 
 var nomeDaAggiungere = "a"
 var cognomeDaAggiungere = "a"
-var dataDiNascita = NSDateComponents()
+var dataDaAggiungere = Date()
 
 var classeInsert = "Terza"
 
@@ -35,18 +35,30 @@ class ViewControllerNuovoBambino: UIViewController, UIPickerViewDataSource,UIPic
 
     @IBAction func aggiungiButton(_ sender: Any)
     {
-        if nomeDaAggiungere != "a" && cognomeDaAggiungere != "a"{
+        
             nomeDaAggiungere = textNome.text!
             cognomeDaAggiungere = textCognome.text!
+            dataDaAggiungere = dataInserita.date
+        let numero = classeInserita.selectedRow(inComponent: 0).description
         
+        switch numero {
+        case "0":
+            classeInsert = "Terza"
+        case "1":
+            classeInsert = "Quarta"
+        case "2":
+            classeInsert = "Quinta"
+        default:
+            classeInsert = "Errore!"
+        }
             performSegue(withIdentifier: "torna", sender: self)
             print("OooooooK")
-        }
-        
         print(classeInsert)
-        print(dataDiNascita)
-        print(cognomeDaAggiungere)
+        
         print(nomeDaAggiungere)
+        print(cognomeDaAggiungere)
+        print(dataDaAggiungere)
+        
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
