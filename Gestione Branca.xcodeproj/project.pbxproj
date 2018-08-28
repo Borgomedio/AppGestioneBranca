@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1425699120987B1300D94622 /* ViewControllerNuovoBambino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425699020987B1300D94622 /* ViewControllerNuovoBambino.swift */; };
+		144526972135547F00BD1263 /* TableViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144526962135547F00BD1263 /* TableViewControllerB.swift */; };
 		14809B3C2097893300C6ABA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B3B2097893300C6ABA5 /* AppDelegate.swift */; };
 		14809B3E2097893300C6ABA5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B3D2097893300C6ABA5 /* FirstViewController.swift */; };
 		14809B402097893300C6ABA5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14809B3F2097893300C6ABA5 /* SecondViewController.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		1425699020987B1300D94622 /* ViewControllerNuovoBambino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNuovoBambino.swift; sourceTree = "<group>"; };
+		144526962135547F00BD1263 /* TableViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerB.swift; sourceTree = "<group>"; };
 		14809B382097893300C6ABA5 /* Gestione Branca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gestione Branca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14809B3B2097893300C6ABA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14809B3D2097893300C6ABA5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				14C6E3CD20985F8400BADA64 /* ViewController2.swift */,
 				1425699020987B1300D94622 /* ViewControllerNuovoBambino.swift */,
 				14809B3F2097893300C6ABA5 /* SecondViewController.swift */,
+				144526962135547F00BD1263 /* TableViewControllerB.swift */,
 				14809B412097893300C6ABA5 /* Main.storyboard */,
 				14809B442097893400C6ABA5 /* Assets.xcassets */,
 				14809B462097893400C6ABA5 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 				14809B3E2097893300C6ABA5 /* FirstViewController.swift in Sources */,
 				14C6E3CE20985F8400BADA64 /* ViewController2.swift in Sources */,
 				1425699120987B1300D94622 /* ViewControllerNuovoBambino.swift in Sources */,
+				144526972135547F00BD1263 /* TableViewControllerB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController{
+  
     @IBOutlet weak var labelNome: UILabel!
     @IBOutlet weak var labelCognome: UILabel!
     @IBOutlet weak var labelEta: UILabel!
